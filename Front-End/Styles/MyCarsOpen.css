@@ -14,8 +14,9 @@ header {
     justify-content: center;
 }
 
-h1{
+h1 {
     padding: 40px;
+    margin-left: 270px;
 }
 
 .container {
@@ -55,67 +56,50 @@ h1{
 }
 
 .cars {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
 .car {
-    width: 260px;
+    width: 1260px;
+    height: 134px;
+    border-radius: 25px;
+    border: 3px #3F86D9 solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.car-open {
+    width: 1260px;
+    height: 414px;
+    border-radius: 25px;
+    border: 3px #3F86D9 solid;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: start;
+}
+
+.car-line{
+    margin-top: 20px;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
-    border: 3px #3F86D9 solid;
-    border-radius: 25px;
-}
-
-.car-name,
-.car-year {
-    font-size: 20px;
-    font-weight: bold;
-    color: #000000;
-    /* text-align: center; */
-}
-
-.car-name {
-    margin-top: 15px;
-}
-
-.car-year {
-    margin-bottom: 15px;
 }
 
 .car-image {
-    width: 250px;
-    margin-bottom: 15px;
+    width: 175px;
 }
 
-.car-daily {
-    font-size: 20px;
-    font-weight: bold;
-    color: #9D9191;
-    /* text-align: center; */
-}
-
-.car-address {
-    font-size: 20px;
-    color: #9D9191;
-    margin-bottom: 15px;
-    /* text-align: center; */
-}
-
-.car-button-rent {
+.info-line{
+    margin-top: 50px;
+    width: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #3F86D9;
-    text-decoration: none;
-    border-radius: 10px;
-    margin-bottom: 15px;
 }

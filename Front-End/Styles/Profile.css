@@ -54,58 +54,26 @@ h1{
     text-decoration: none;
 }
 
-.cars {
+.line-title{
+    width: 230px;
     display: flex;
-    justify-content: space-between;
-}
-
-.car {
-    width: 260px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 20px;
     align-items: center;
-    margin: 0 auto;
-    border: 3px #3F86D9 solid;
-    border-radius: 25px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
-.car-name,
-.car-year {
+.car-name{
+    width: 300px;
     font-size: 20px;
     font-weight: bold;
     color: #000000;
     /* text-align: center; */
 }
 
-.car-name {
-    margin-top: 15px;
-}
-
-.car-year {
-    margin-bottom: 15px;
-}
-
-.car-image {
-    width: 250px;
-    margin-bottom: 15px;
-}
-
-.car-daily {
-    font-size: 20px;
-    font-weight: bold;
-    color: #9D9191;
-    /* text-align: center; */
-}
-
-.car-address {
-    font-size: 20px;
-    color: #9D9191;
-    margin-bottom: 15px;
-    /* text-align: center; */
-}
-
-.car-button-rent {
+.button-edit {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,4 +86,37 @@ h1{
     text-decoration: none;
     border-radius: 10px;
     margin-bottom: 15px;
+}
+
+.button-leave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #DE4949;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.line-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.profile-text{
+    font-size: 24px;
+
+}
+
+.profile-text-strong{
+    font-size: 24px;
+font-weight: bold;
 }

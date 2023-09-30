@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #3F86D9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* 
+h1{
+    padding: 40px;
+} */
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.coins {
+    display: flex;
+}
+
+.my-profile {
+    display: flex;
+    text-decoration: none;
+}
+
+.header-welcome {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 45px 0px;
+}
+
+.header-navbar-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 0px 20px;
+}
+
+.line-columns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line{
+    display: flex;
+}
+
+.group{
+
+}
+
+.line-input{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.line-buttons{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+}
+
+.column h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.column h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #A2A6B5;
+}
+
+.input-16{
+    border: 1px #3F86D9 solid;
+    border-radius: 5px;
+    width: 570px;
+    height: 50px;
+    color: #3F86D9;
+    margin-bottom: 20px;
+    text-align: center;
+    outline: none;
+}
+
+.input-cvv{
+    border: 1px #3F86D9 solid;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+    color: #3F86D9;
+    text-align: center;
+    outline: none;
+}
+
+.input-validade{
+    border: 1px #3F86D9 solid;
+    border-radius: 5px;
+    width: 125px;
+    height: 50px;
+    color: #3F86D9;
+    text-align: center;
+    outline: none;
+}
+
+.input-tempo{
+    border: 1px #3F86D9 solid;
+    border-radius: 5px;
+    width: 275px;
+    height: 50px;
+    color: #3F86D9;
+    padding: 0 auto;
+    text-align: center;
+    outline: none;
+}
+
+.input-endereco{
+    border: 1px #3F86D9 solid;
+    border-radius: 5px;
+    width: 275px;
+    height: 50px;
+    color: #3F86D9;
+    padding: 0 auto;
+    text-align: center;
+    outline: none;
+}
+
+.btn{
+    border: 1px #3F86D9 solid;
+    background-color: #3F86D9;
+    border-radius: 5px;
+    width: 275px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.line-title{
+    width: 250px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.btn-pagamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #3F86D9;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.form-text{
+    font-size: 16px;
+    color: #A2A6B5;
+    margin-bottom: 20px;
+}
+
+.box-form{
+    margin-top: 30px;
+    width: 570px;
+    height: 596px;
+}
+
+.box-resume{
+    margin-top: 80px;
+    width: 400px;
+    height: 644px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #E5E9EC;
+    border-radius: 10px;
+}
+
+.line-resume{
+    width: 355px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-resume-p1{
+    font-size: 24px;
+    color: #9D9191;
+}
+
+.line-resume-p2{
+    font-size: 24px;
+    color: #000000;
+}
