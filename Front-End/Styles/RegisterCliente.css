@@ -101,9 +101,13 @@ select{
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     margin-top: 50px;
+    text-decoration: none;
+    
 }
 
 

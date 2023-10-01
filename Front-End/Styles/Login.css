@@ -137,7 +137,10 @@ input::placeholder{
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     margin-top: 40px;
 }
 

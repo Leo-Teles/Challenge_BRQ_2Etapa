@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #3F86D9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    padding: 40px;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.coins {
+    display: flex;
+}
+
+.my-profile {
+    display: flex;
+    text-decoration: none;
+}
+
+.header-welcome {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 45px 0px;
+}
+
+.header-navbar-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.line-title{
+    width: 230px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.car-name{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    /* text-align: center; */
+}
+
+.button-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #3F86D9;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.button-leave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #DE4949;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.line-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.profile-text{
+    font-size: 24px;
+    align-items: center;
+}
+
+.profile-text-strong{
+    font-size: 24px;
+font-weight: bold;
+}
+
+.input-edit-profile{
+    height: 32px;
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 1px #3F86D9 solid;
+    outline: none;
+}
