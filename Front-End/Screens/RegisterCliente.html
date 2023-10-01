@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/RegisterCliente.css">
+    <title>Faça seu cadastro </title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="BlocoEsquerda">
+
+            <div class="ContainerTopo">
+                <a class="ImgVoltar" href="Login.html"> <img src="../Assets/icons/seta-esquerda (1).png" alt=""></a>
+
+                <div class="teste">
+                    <img class="ImgEasyCarros" src="../Assets/logo/Logo-Easy-Carros.png" alt="Logo EasyCarros ">
+                </div>
+
+            </div>
+
+
+            <h1>Faça seu cadastro!</h1>
+            <h2>Como Cliente:</h2>
+
+            <div>
+                <select id="link"  onchange="changeFunc(value);">
+                    <option > Cliente</option>
+                    <option value="nova"> Empresa</option>
+                </select>
+            </div>
+
+            <input placeholder="Nome Completo" type="text" name="Nome">
+            <input placeholder="E-mail" type="email" name="E-mail">
+            <input placeholder="Telefone" type="tel" name="Telefone">
+
+            <input type="text" placeholder="CPF">
+
+            <input type="password" placeholder="Senha">
+
+            <button class="botaoCadastro"> Cadastrar</button>
+
+            
+        <script type="text/javascript">
+            function changeFunc($i) {
+                if ($i == 'nova'){
+                    window.open('RegisterEmpresa.html','_self');
+                }
+            }
+            </script>
+
+
+
+        </section>
+
+        <section class="BlocoDireita">
+
+        </section>
+    </main>
+</body>
+
+</html>
